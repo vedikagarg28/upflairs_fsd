@@ -28,6 +28,7 @@ body{
 
 .blue{
     background-color: blue;
+    order: 4;
 }
 
 .green{
@@ -37,15 +38,19 @@ body{
 
 .pink{
     background-color: pink;
+    order: 3;
 }
 
 .cyan{
     background-color: cyan;
     height: 200px;
+    flex-grow: 3;   /*by default flex-grow value is 1*/
 }
 
 .orange{
     background-color: orange;
+    order: 1;
+    flex-grow: 2;
 }
 
 .purple{
